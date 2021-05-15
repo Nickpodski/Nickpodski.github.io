@@ -17,7 +17,7 @@ function App() {
           <Background />
           <Switch>
             <>
-            <Route exact path={["/", "/home", ""]}>
+            <Route exact path={["/", "/home", "/react_profile_np/"]}>
               <Home />
             </Route>
             <Route path="/portfolio">

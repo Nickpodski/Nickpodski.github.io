@@ -13,7 +13,7 @@ const Home = () => {
               width={250}
               height={250}
               className="mr-3 mt-5 mb-2"
-              src="assets/images/IMG_20200530_131146.jpg"
+              src="./assets/images/IMG_20200530_131146.jpg"
               alt="Me"
             />
           </Media>

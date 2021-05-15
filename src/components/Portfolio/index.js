@@ -16,11 +16,11 @@ const Portfolio = () => {
   const budgetSite = 'https://blooming-taiga-98988.herokuapp.com/';
   const budgetRepo = 'https://github.com/Nickpodski/Budget_Tracker_NP';
   return (
-    <Container className="about-me mt-5 p-1">
+    <Container className="about-me mt-5 mb-5 p-1">
       <Row xs={4} lg={10}>
         <Col xs={12} lg={4}>
             <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px',}}>
-              <Card.Img variant="top" src="../assets/images/Homepage.png" />
+              <Card.Img variant="top" src="./assets/images/Homepage.png" />
               <Card.Body>
                 <Card.Title>Homonym!</Card.Title>
                 <Card.Text>
@@ -33,7 +33,7 @@ const Portfolio = () => {
         </Col>
         <Col xs={12} lg={4}>
             <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px',}}>
-              <Card.Img variant="top" src="../assets/images/MYDND.png" />
+              <Card.Img variant="top" src="./assets/images/MYDND.png" />
               <Card.Body>
                 <Card.Title>My DND SpellBook!</Card.Title>
                 <Card.Text>
@@ -46,7 +46,7 @@ const Portfolio = () => {
         </Col>
         <Col xs={12} lg={4}>
             <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px',}}>
-              <Card.Img variant="top" src="../assets/images/Start_page.png" />
+              <Card.Img variant="top" src="./assets/images/Start_page.png" />
               <Card.Body>
                 <Card.Title>My DND SpellBook!</Card.Title>
                 <Card.Text>
@@ -61,7 +61,7 @@ const Portfolio = () => {
       <Row xs={4} lg={10}>
         <Col xs={12} lg={4}>
             <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px',}}>
-              <Card.Img variant="top" src="../assets/images/budget.png" />
+              <Card.Img variant="top" src="./assets/images/budget.png" />
               <Card.Body>
                 <Card.Title>Budget Tracker!</Card.Title>
                 <Card.Text>
@@ -74,7 +74,7 @@ const Portfolio = () => {
         </Col>
         <Col xs={12} lg={4}>
             <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px',}}>
-              <Card.Img variant="top" src="../assets/images/note.png" />
+              <Card.Img variant="top" src="./assets/images/note.png" />
               <Card.Body>
                 <Card.Title>NoteTaker!</Card.Title>
                 <Card.Text>
@@ -87,7 +87,7 @@ const Portfolio = () => {
         </Col>
         <Col xs={12} lg={4}>
             <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px',}}>
-              <Card.Img variant="top" src="../assets/images/workout.png" />
+              <Card.Img variant="top" src="./assets/images/workout.png" />
               <Card.Body>
                 <Card.Title>Fitness Tracker!</Card.Title>
                 <Card.Text>
