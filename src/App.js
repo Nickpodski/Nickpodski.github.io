@@ -17,13 +17,13 @@ function App() {
           <Background />
           <Switch>
             <>
-            <Route exact path={["/", "/home", "/react_profile_np/"]}>
+            <Route exact path={["/", "/home", "/react_profile_np/", "/react_profile_np/home"]}>
               <Home />
             </Route>
             <Route path={["/portfolio", "/react_profile_np/portfolio"]}>
               <Portfolio />
             </Route>
-            <Route path={["/contact", "react_profile_np/contact"]}>
+            <Route path={["/contact", "/react_profile_np/contact"]}>
               <Contact />
             </Route>
             </>
