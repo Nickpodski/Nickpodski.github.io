@@ -17,7 +17,7 @@ function App() {
           <Background />
           <Switch>
             <>
-            <Route exact path={["/", "/home"]}>
+            <Route exact path={["/", "/home", ""]}>
               <Home />
             </Route>
             <Route path="/portfolio">

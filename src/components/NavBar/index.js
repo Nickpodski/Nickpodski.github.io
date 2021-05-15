@@ -33,7 +33,7 @@ const NavBar = () => {
   return(
     <>
       <Navbar bg="dark" variant="dark" sticky="top">
-        <Navbar.Brand href="/home">Nick Podniestrzanski</Navbar.Brand>
+        <Navbar.Brand>Nick Podniestrzanski</Navbar.Brand>
         <Nav className="ml-auto">
           <Nav.Item><Link id="1" onClick={handleSelect} to="/home" className="nav-link active" >About Me</Link></Nav.Item>
           <Nav.Item><Link id="2" onClick={handleSelect} to="/portfolio" className="nav-link" >Portfolio</Link></Nav.Item>
