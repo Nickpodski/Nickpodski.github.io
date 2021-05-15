@@ -35,9 +35,9 @@ const NavBar = () => {
       <Navbar bg="dark" variant="dark" sticky="top">
         <Navbar.Brand>Nick Podniestrzanski</Navbar.Brand>
         <Nav className="ml-auto">
-          <Nav.Item><Link id="1" onClick={handleSelect} to="/home" className="nav-link active" >About Me</Link></Nav.Item>
-          <Nav.Item><Link id="2" onClick={handleSelect} to="/portfolio" className="nav-link" >Portfolio</Link></Nav.Item>
-          <Nav.Item><Link id="3" onClick={handleSelect} to="/contact" className="nav-link">Contact</Link></Nav.Item>
+          <Nav.Item><Link id="1" onClick={handleSelect} to="/react_profile_np/home" className="nav-link active" >About Me</Link></Nav.Item>
+          <Nav.Item><Link id="2" onClick={handleSelect} to="/react_profile_np/portfolio" className="nav-link" >Portfolio</Link></Nav.Item>
+          <Nav.Item><Link id="3" onClick={handleSelect} to="/react_profule_np/contact" className="nav-link">Contact</Link></Nav.Item>
         </Nav>
       </Navbar>
     </>
