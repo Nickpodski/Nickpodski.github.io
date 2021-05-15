@@ -4,7 +4,7 @@ import './style.css';
 const Background = () => {
   return(
     <div>
-      <video className="bg-video" src="./assets/Video/Space_loop.mp4"></video>
+      <img className="bg-video" src="./assets/images/Space_loop_Moment.jpg"></img>
     </div>
   );
 };
