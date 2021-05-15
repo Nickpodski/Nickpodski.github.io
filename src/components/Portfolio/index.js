@@ -46,9 +46,9 @@ const Portfolio = () => {
         </Col>
         <Col xs={12} lg={4}>
             <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px',}}>
-              <Card.Img variant="top" src="./assets/images/Start_page.png" />
+              <Card.Img variant="top" src="./assets/images/Start_Page.png" />
               <Card.Body>
-                <Card.Title>My DND SpellBook!</Card.Title>
+                <Card.Title>Weather Forecast!</Card.Title>
                 <Card.Text>
                   A Weather forecast Dashboard! You can search any city in the world and see weather info!
                 </Card.Text>
