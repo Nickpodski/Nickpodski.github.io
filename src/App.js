@@ -1,24 +1,37 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Background from "./components/Background";
 import Home from "./components/Home";
-// import NoMatch from "./pages/NoMatch";
-import ParralaxContainer from "./components/ParralaxContainer";
+import NavBar from "./components/NavBar";
+import Portfolio from "./components/Portfolio";
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 function App() {
   return (
-    <Router>
-      <div>
+    <div>
+      <Router>
+        <NavBar />
         <div>
-        <ParralaxContainer />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/home" component={Home} />
-            </Switch>
-        <ParralaxContainer />
+          <Background />
+          <Switch>
+            <>
+            <Route exact path={["/", "/home"]}>
+              <Home />
+            </Route>
+            <Route path="/portfolio">
+              <Portfolio />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            </>
+          </Switch>
         </div>
-      </div>
-    </Router>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 

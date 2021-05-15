@@ -2,3 +2,19 @@
   float: left;
   margin-right: 20px;
 }
+
+.float-text {
+  float: left;
+}
+
+.about-me {
+  background-color: #052c42 !important;
+  opacity: .99;
+  border: solid #292b2c;
+  border-radius: 10px;
+}
+
+
+
+
+
