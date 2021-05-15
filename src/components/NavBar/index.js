@@ -37,7 +37,7 @@ const NavBar = () => {
         <Nav className="ml-auto">
           <Nav.Item><Link id="1" onClick={handleSelect} to="/react_profile_np/home" className="nav-link active" >About Me</Link></Nav.Item>
           <Nav.Item><Link id="2" onClick={handleSelect} to="/react_profile_np/portfolio" className="nav-link" >Portfolio</Link></Nav.Item>
-          <Nav.Item><Link id="3" onClick={handleSelect} to="/react_profule_np/contact" className="nav-link">Contact</Link></Nav.Item>
+          <Nav.Item><Link id="3" onClick={handleSelect} to="/react_profile_np/contact" className="nav-link">Contact</Link></Nav.Item>
         </Nav>
       </Navbar>
     </>
