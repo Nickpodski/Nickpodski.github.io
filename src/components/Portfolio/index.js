@@ -25,8 +25,8 @@ const Portfolio = () => {
             <Card.Text>
               A website for movie lovers!
                 </Card.Text>
-            <Button className="m-2" variant="primary" onClick={() => window.open(noteSite, "_blank")}>Site Link!</Button>
-            <Button className="m-2" variant="primary" onClick={() => window.open(noteRepo, "_blank")}>Repo Link!</Button>
+            <Button className="m-2" variant="primary" onClick={() => window.open(reelSite, "_blank")}>Site Link!</Button>
+            <Button className="m-2" variant="primary" onClick={() => window.open(reelRepo, "_blank")}>Repo Link!</Button>
           </Card.Body>
         </Card>
       </Col>
