@@ -17,20 +17,20 @@ const Portfolio = () => {
   const budgetRepo = 'https://github.com/Nickpodski/Budget_Tracker_NP';
   return (
     <Container className="about-me mt-5 mb-5 p-1">
-      <Col xs={12} lg={4}>
-        <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
-          <Card.Img variant="top" src="./assets/images/note.png" />
-          <Card.Body>
-            <Card.Title>Reel Junkie!</Card.Title>
-            <Card.Text>
-              A website for movie lovers!
-                </Card.Text>
-            <Button className="m-2" variant="primary" onClick={() => window.open(reelSite, "_blank")}>Site Link!</Button>
-            <Button className="m-2" variant="primary" onClick={() => window.open(reelRepo, "_blank")}>Repo Link!</Button>
-          </Card.Body>
-        </Card>
-      </Col>
       <Row xs={4} lg={10}>
+        <Col xs={12} lg={4}>
+          <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
+            <Card.Img variant="top" src="./assets/images/reel_junkie.png" />
+            <Card.Body>
+              <Card.Title>Reel Junkie!</Card.Title>
+              <Card.Text>
+                A website for movie lovers!
+                </Card.Text>
+              <Button className="m-2" variant="primary" onClick={() => window.open(reelSite, "_blank")}>Site Link!</Button>
+              <Button className="m-2" variant="primary" onClick={() => window.open(reelRepo, "_blank")}>Repo Link!</Button>
+            </Card.Body>
+          </Card>
+        </Col>
         <Col xs={12} lg={4}>
           <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
             <Card.Img variant="top" src="./assets/images/Homepage.png" />
@@ -57,7 +57,9 @@ const Portfolio = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} lg={4}>
+      </Row>
+      <Row xs={4} lg={10}>
+      <Col xs={12} lg={4}>
           <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
             <Card.Img variant="top" src="./assets/images/Start_Page.png" />
             <Card.Body>
@@ -70,8 +72,6 @@ const Portfolio = () => {
             </Card.Body>
           </Card>
         </Col>
-      </Row>
-      <Row xs={4} lg={10}>
         <Col xs={12} lg={4}>
           <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
             <Card.Img variant="top" src="./assets/images/budget.png" />
