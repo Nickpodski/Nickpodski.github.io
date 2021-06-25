@@ -11,8 +11,8 @@ const Portfolio = () => {
   const weatherSite = 'https://nickpodski.github.io/Weather_Dashboard_NP/';
   const workoutSite = 'https://gentle-chamber-10770.herokuapp.com/?id=607d8fc0549b61001521208e';
   const workoutRepo = 'https://github.com/Nickpodski/Workout_Tracker_NP';
-  const reelSite = 'https://github.com/Nickpodski/reel_junkie';
-  const reelRepo = 'https://github.com/Nickpodski/NickP_Note_Taker';
+  const reelSite = 'https://nickpodski.github.io/react_profile_np/';
+  const reelRepo = 'https://github.com/Nickpodski/reel_junkie';
   const budgetSite = 'https://blooming-taiga-98988.herokuapp.com/';
   const budgetRepo = 'https://github.com/Nickpodski/Budget_Tracker_NP';
   return (
