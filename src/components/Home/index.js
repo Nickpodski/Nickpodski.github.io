@@ -23,10 +23,10 @@ const Home = () => {
         <Media.Body className="text-white">
           <h1>About Me!</h1>
           <p className="flow-text">
-            Hello, My name is Nicholas Podniestrzanski, but I go by Nick. I'm currently taking a Coding Bootcamp
-            from UCF. I've been working in the Video and Television broadcasting industries for the past 8 years.
-            I've recently decided to get back into coding. Before I decided to go to film school I was very much on
-            a path for computer programming. Then I decided to go to film school!
+            Hello, My name is Nicholas Podniestrzanski, but I go by Nick. I finished a coding bootcamp from UCF June
+            2021, and started working as a Jr Dev at Proforma August of 2021. I've been working in the Video and Television 
+            broadcasting industries for the past 8 years. I've recently decided to get back into coding. Before I decided 
+            to go to film school I was very much on a path for computer programming. Then I decided to go to film school!
     </p>
           <p className="flow-text">
             In February of 2012 I graduated from Full Sail University with a Bachelor's Degree in Film.
@@ -44,8 +44,9 @@ const Home = () => {
     </p>
           <p className="flow-text">
             My early years of programming and coding has aided in my quest to become a Full Stack Web
-            Developer. And hopefully at the end of this bootcamp I will begin my new career, and my past
-            experiences will give me an edge.
+            Developer. And I've been working for Proforma as QA Automation Engineer, and as of October 2022 I
+            became the Team lead. I've learned so much being the QA side of coding that I'm not sure I would of 
+            Learned doing it normally. Now I look to grow my coding career and continue to learn more and more!
     </p>
         </Media.Body>
       </Row>
