@@ -1,23 +1,13 @@
 {
   "files": {
-    "main.css": "/react_profile_np/static/css/main.eb0d1020.chunk.css",
-    "main.js": "/react_profile_np/static/js/main.9e52251a.chunk.js",
-    "main.js.map": "/react_profile_np/static/js/main.9e52251a.chunk.js.map",
-    "runtime-main.js": "/react_profile_np/static/js/runtime-main.56669235.js",
-    "runtime-main.js.map": "/react_profile_np/static/js/runtime-main.56669235.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/react_profile_np/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.2f66d3a5.chunk.js": "/react_profile_np/static/js/2.2f66d3a5.chunk.js",
-    "static/js/2.2f66d3a5.chunk.js.map": "/react_profile_np/static/js/2.2f66d3a5.chunk.js.map",
+    "main.css": "/react_profile_np/static/css/main.7bed0581.css",
+    "main.js": "/react_profile_np/static/js/main.79b16bca.js",
     "index.html": "/react_profile_np/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/react_profile_np/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.eb0d1020.chunk.css.map": "/react_profile_np/static/css/main.eb0d1020.chunk.css.map",
-    "static/js/2.2f66d3a5.chunk.js.LICENSE.txt": "/react_profile_np/static/js/2.2f66d3a5.chunk.js.LICENSE.txt"
+    "main.7bed0581.css.map": "/react_profile_np/static/css/main.7bed0581.css.map",
+    "main.79b16bca.js.map": "/react_profile_np/static/js/main.79b16bca.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.56669235.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.2f66d3a5.chunk.js",
-    "static/css/main.eb0d1020.chunk.css",
-    "static/js/main.9e52251a.chunk.js"
+    "static/css/main.7bed0581.css",
+    "static/js/main.79b16bca.js"
   ]
 }
