@@ -30,6 +30,7 @@ const Home = () => {
           on it ever since. October of 2022 I became the team lead, and have been pushing the transition
           to Xunit from MS.Test a long with catching the team up to best practices. I'm currently looking for my
           oppurtunity in my Tech Career!
+        </p>  
         <p class="flow-text">
           In February of 2012 I graduated from Full Sail University with a Bachelor's Degree in Film.
           I got a job a at ESPN a few months later. I worked there Freelance for a view years. I worked
@@ -42,12 +43,12 @@ const Home = () => {
           Over the years I've done various video productions jobs including; Directing, Producing,
           Video Editing, Live Video Editing, Camera Operation, Live Directing/Producing, and various
           other video produciton jobs. My hightlight of my career was being credited as a Producer for
-          the early coverage of <a href="https://www.theopen.com/" target="_blank">2019 The Open</a>.
+          the early coverage of <a href="https://www.theopen.com/" target="_blank" rel='noreferrer'>2019 The Open</a>.
         </p>
         <p class="flow-text">
           My early years of programming and coding has aided in my quest to become a Full Stack Web
           Developer. And now that I've got some actual professional experience in coding I'm ever confident of my
-          coding abilties! Hopefulyy my vast experiences can continue to help me alon in this Career!
+          coding abilties! Hopefully my vast experiences can continue to help me along in this Career!
         </p>
         </Media.Body>
       </Row>
