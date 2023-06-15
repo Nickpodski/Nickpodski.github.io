@@ -11,7 +11,7 @@ const Content = () => {
           <h1 className="h1">Nicholas Podniestrzanski</h1>
           <h2 className="h2">Email: <a href="mailto: Nickpodski@gmail.com">Nickpodski@gmail.com</a></h2>
           <h2 className="h2">Phone:<a href="tel:727-686-8782">727-686-8782</a></h2>
-          <h2 className="h2">Résumé: <a href="assets/documents/Nick_P_Coding_Resume_060123.pdf" download><i className="material-icons medium">cloud_download</i></a></h2>
+          <h2 className="h2">Résumé: <a href="./react_profile_np/assets/documents/Nick_P_Coding_Resume_060123.pdf" download><i className="material-icons medium">cloud_download</i></a></h2>
         </Col>
       </Row>
     </Container>
