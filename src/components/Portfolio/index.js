@@ -20,7 +20,7 @@ const Portfolio = () => {
       <Row xs={4} lg={10}>
         <Col xs={12} lg={4}>
           <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
-            <Card.Img variant="top" src="./react_profile_np/assets/images/reel_junkie.png" />
+            <Card.Img variant="top" src="assets/images/reel_junkie.png" />
             <Card.Body>
               <Card.Title>Reel Junkie!</Card.Title>
               <Card.Text>
@@ -33,7 +33,7 @@ const Portfolio = () => {
         </Col>
         <Col xs={12} lg={4}>
           <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
-            <Card.Img variant="top" src="./react_profile_np/assets/images/Homepage.png" />
+            <Card.Img variant="top" src="assets/images/Homepage.png" />
             <Card.Body>
               <Card.Title>Homonym!</Card.Title>
               <Card.Text>
@@ -46,7 +46,7 @@ const Portfolio = () => {
         </Col>
         <Col xs={12} lg={4}>
           <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
-            <Card.Img variant="top" src="./react_profile_np/assets/images/MYDND.png" />
+            <Card.Img variant="top" src="assets/images/MYDND.png" />
             <Card.Body>
               <Card.Title>My DND SpellBook!</Card.Title>
               <Card.Text>
@@ -61,7 +61,7 @@ const Portfolio = () => {
       <Row xs={4} lg={10}>
       <Col xs={12} lg={4}>
           <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
-            <Card.Img variant="top" src="./react_profile_np/assets/images/Start_Page.png" />
+            <Card.Img variant="top" src="assets/images/Start_Page.png" />
             <Card.Body>
               <Card.Title>Weather Forecast!</Card.Title>
               <Card.Text>
@@ -74,7 +74,7 @@ const Portfolio = () => {
         </Col>
         <Col xs={12} lg={4}>
           <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
-            <Card.Img variant="top" src="./react_profile_np/assets/images/budget.png" />
+            <Card.Img variant="top" src="assets/images/budget.png" />
             <Card.Body>
               <Card.Title>Budget Tracker!</Card.Title>
               <Card.Text>
@@ -87,7 +87,7 @@ const Portfolio = () => {
         </Col>
         <Col xs={12} lg={4}>
           <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
-            <Card.Img variant="top" src="./react_profile_np/assets/images/workout.png" />
+            <Card.Img variant="top" src="assets/images/workout.png" />
             <Card.Body>
               <Card.Title>Fitness Tracker!</Card.Title>
               <Card.Text>
