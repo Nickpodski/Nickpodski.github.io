@@ -4,7 +4,7 @@ import './style.css';
 const Background = () => {
   return(
     <div>
-      <img className="bg-video" src="assets/images/Space_loop_Moment.jpg" alt="background of stars at night!"></img>
+      <img className="bg-video" src="./assets/images/Space_loop_Moment.jpg" alt="background of stars at night!"></img>
     </div>
   );
 };
