@@ -7,11 +7,11 @@ const NavBar = () => {
   return(
     <>
       <Navbar bg="dark" variant="dark" sticky="top">
-        <Navbar.Brand as={Link} to="./home">Nick Podniestrzanski</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/react_profile_np/home">Nick Podniestrzanski</Navbar.Brand>
         <NavDropdown className="ml-auto" title="Menu" id="collasible-nav-dropdown">
-          <NavDropdown.Item as={Link} to="./home">Home</NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="./portfolio">Portfolio</NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="./contact">Contact</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/react_profile_np/home">Home</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/react_profile_np/portfolio">Portfolio</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/react_profile_np/contact">Contact</NavDropdown.Item>
         </NavDropdown>
       </Navbar>
     </>
