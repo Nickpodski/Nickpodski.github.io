@@ -1,17 +1,18 @@
 import React from "react";
-import {Navbar, Nav} from 'react-bootstrap';
+import {Navbar} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const NavBar = () => {
   return(
     <>
       <Navbar bg="dark" variant="dark" sticky="top">
         <Navbar.Brand as={Link} to="/react_profile_np/home">Nick Podniestrzanski</Navbar.Brand>
-        <Nav className="ml-auto" defaultActiveKey="1">
-          <Nav.Item><Nav.Link eventKey="1" as={Link} to="/react_profile_np/home">Home</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link eventKey="2" as={Link} to="/react_profile_np/portfolio">Portfolio</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link eventKey="3" as={Link} to="/react_profile_np/contact">Contact</Nav.Link></Nav.Item>
-        </Nav>
+        <NavDropdown className="ml-auto" title="Menu" id="collasible-nav-dropdown">
+          <NavDropdown.Item href="/react_profile_np/home">Home</NavDropdown.Item>
+          <NavDropdown.Item href="/react_profile_np/portfolio">Portfolio</NavDropdown.Item>
+          <NavDropdown.Item href="/react_profile_np/contact">Contact</NavDropdown.Item>
+        </NavDropdown>
       </Navbar>
     </>
   )
