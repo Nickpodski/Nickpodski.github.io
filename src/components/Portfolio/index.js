@@ -16,7 +16,7 @@ const Portfolio = () => {
   const budgetSite = 'https://blooming-taiga-98988.herokuapp.com/';
   const budgetRepo = 'https://github.com/Nickpodski/Budget_Tracker_NP';
   return (
-    <Container className="about-me mt-5 mb-5 p-1">
+    <Container className="portfolio-container mt-5 mb-5 p-1">
       <Row xs={4} lg={10}>
         <Col xs={12} lg={4}>
           <Card className="m-4 p-3" bg="dark" text="light" style={{ width: '300px', }}>
